@@ -1,0 +1,14 @@
+﻿<Window x:Class="PortforwardWPF.Windows.CommandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PortforwardWPF.Windows"
+        mc:Ignorable="d"
+        Title="CommandWindow" WindowStyle="None" Background="#353535" Height="150" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <Border x:Name="Border" MouseDown="Border_MouseDown" Background="#303030" BorderThickness="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="400">
+            <Label x:Name="lblName" Content="Command" FontSize="16" HorizontalAlignment="Center" Margin="162,-1,154,-2" VerticalAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>
